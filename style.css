@@ -27,6 +27,10 @@ p {
     width: 100%;
 }
 
+.i-am {
+    margin-top: 60px;
+}
+
 /*Font for main heading*/
 .m-heading{
     font-family: "Roboto Slab", serif; 
@@ -229,9 +233,6 @@ p {
         margin-left: -10%;
     }
 
-    .i-am {
-        padding-top: 60px;
-    }
 }
 
 @media screen and (max-width:800px){
