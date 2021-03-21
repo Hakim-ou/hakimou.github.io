@@ -59,7 +59,6 @@ p {
 
 .my-image {
     margin-left: 10%;
-    overflow: hidden;
 }
 
 .main-container{
@@ -223,4 +222,16 @@ p {
 
 #contact a:hover, div#email-me:hover{
     background-color:#e07a5f;
+}
+
+@media screen and (max-width:1000px){
+    .my-image {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .btn {
+        margin-left: 0%;
+    }
 }
