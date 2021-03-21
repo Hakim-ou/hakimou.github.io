@@ -228,15 +228,15 @@ p {
     .my-image {
         margin-left: -10%;
     }
+
+    .i-am {
+        padding-top: 60px;
+    }
 }
 
 @media screen and (max-width:800px){
     .my-image {
         margin-left: -10%;
         width: 90%
-    }
-
-    .main-container {
-        padding-top: 40px;
     }
 }
