@@ -233,5 +233,6 @@ p {
 @media screen and (max-width:800px){
     .my-image {
         margin-left: -10%;
+        width: 90%
     }
 }
