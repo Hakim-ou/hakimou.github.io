@@ -223,15 +223,3 @@ p {
 #contact a:hover, div#email-me:hover{
     background-color:#e07a5f;
 }
-
-@media screen and (max-width:1000px){
-    .btn {
-        width: 120;
-    }
-}
-
-@media screen and (max-width:800px){
-    .btn {
-        width: 100;
-    }
-}
