@@ -226,12 +226,12 @@ p {
 
 @media screen and (max-width:1000px){
     .my-image {
-        margin-left: 0%;
+        margin-left: -10%;
     }
 }
 
 @media screen and (max-width:800px){
     .btn {
-        margin-left: 0%;
+        margin-left: -10%;
     }
 }
