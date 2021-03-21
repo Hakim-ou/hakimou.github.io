@@ -231,7 +231,7 @@ p {
 }
 
 @media screen and (max-width:800px){
-    .btn {
+    .my-image {
         margin-left: -10%;
     }
 }
