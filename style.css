@@ -235,4 +235,8 @@ p {
         margin-left: -10%;
         width: 90%
     }
+
+    .main-container {
+        padding-top: 40px;
+    }
 }
