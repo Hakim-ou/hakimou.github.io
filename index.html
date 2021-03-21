@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+        <!-- Bootstrap Js -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <!-- My CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+            rel="stylesheet" 
+        />
+        <!-- Animations -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    </head>
+
+    <body data-aos-easing="ease" data-aos-duration="700" data-aos-delay="0">
+        <!--Navigation Bar-->
+        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 px-0 fixed-top">
+            <i class="fas fa-terminal fa-2x text-dark pb-2 pl-1 d-none d-md-block"></i>
+            <a href="#" class="navbar-brand pl-2">Hakim-Ou</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="ToggleNavigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse h4 pt-2" id="navLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#about" class="text-white nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class=" text-white nav-link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="text-white nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Main Section-->
+        <div class="container main-container d-flex align-items-center" id="main-section">
+            <div class="row col-12 main-row d-flex">
+                <div class="col-md-6 aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
+                    <h2 class="text-black">Hey there, I am</h2>
+                    <h1 class="text-dark m-heading aos-init aos-animate" data-aos="fade-right" data-delay="600" data-aos-duration="1000">
+                        Hakim OUHIDA<span class="text-black">,</span></h1>
+                    <h2 class="text-black">an aspiring Software Developer</h2>
+                    <!--CV and Contact-->
+                    <div class="button-group">
+                        <a class="btn contact" id="contact-me">Contact Me</a>
+                        <a class="btn" href="cv/cv-fr.pdf" target="_blank">View My CV</a>
+                    </div>
+                </div>
+                <div class="col-md-6 aos-init aos-animate" data-aos="fade-left">
+                    <img src="img/hakim.png" class="shadowed my-image">
+                </div>
+            </div>
+        </div>
+
+        <!--About Me-->
+        <div class="container" id="about">
+            <div class="row">
+                <div class="section-title text-dark">
+                    <h2 class="underline">About Me</h2>
+                </div>
+            </div>
+            <div class="row" style="display: flex;align-items: center;">
+                <!--Description-->
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <p class="text-about-me">
+                        My name is OUHIDA Hakim, I am from Morocco. I am currently a 2nd-year
+                        student (Bac+4, Master 1) studying Computer Science at 
+                        <a href="https://ensimag.grenoble-inp.fr/" class="ensimag-btn" target="_blank">Grenoble INP - Ensimag</a>, specialising in Information Systems Ingineering. 
+                    </p>
+                    <p class="text-about-me">
+                        I am pationate about low level programing and system aspects.
+                        I love to build and conceive things, and I've always wanted to work as a 
+                        software engineer on impactful projects dealing with real-world problems.
+                        I am a well-organised and independent person with high attention to detail.
+                        I strive to always apply the best engineering practices in my work and build 
+                        meaningful products that provide performant experiences.
+                        
+                    </p>
+                </div>
+                <!--Skills-->
+                <div class="skills-blocks col-lg-6 col-md-6 col-sm-6">
+                    <div class="row d-flex">
+                        <div class="skill col-lg-4 col-md-4 col-sm-6">
+                            <div class="icon-skill">
+                                <img class="image-skill" src="img/java.png"/>
+                            </div>
+                            <span class="label-skill">Java/JEE</span>
+                        </div>
+                        <div class="skill col-lg-4 col-md-4 col-sm-6">
+                            <div class="icon-skill">
+                                <img class="image-skill" src="img/python.png"/>
+                            </div>
+                            <span class="label-skill">Python</span>
+                        </div>
+                        <div class="skill col-lg-4 col-md-4 col-sm-6">
+                            <div class="icon-skill">
+                                <img class="image-skill" src="img/c.png"/>
+                            </div>
+                            <span class="label-skill">C</span>
+                        </div>
+                        <div class="skill col-lg-4 col-md-4 col-sm-6">
+                            <div class="icon-skill">
+                                <img class="image-skill" src="img/web.png"/>
+                            </div>
+                            <span class="label-skill">Web</span>
+                        </div>
+                        <div class="skill col-lg-4 col-md-4 col-sm-6">
+                            <div class="icon-skill">
+                                <img class="image-skill" src="img/android.png"/>
+                            </div>
+                            <span class="label-skill">Mobile</span>
+                        </div>
+                        <div class="skill col-lg-4 col-md-4 col-sm-6">
+                            <div class="icon-skill">
+                                <img class="image-skill" src="img/agile.png"/>
+                            </div>
+                            <span class="label-skill">Agile</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--My Projects-->
+        <div class="container mt-3 py-5 " id="projects">
+            <div class="row project-line">
+                <div class="section-title text-dark">
+                    <h2 class="underline">My Projects</h2>
+                </div>
+            </div>
+            <div class="row d-flex">
+                <div class="col-12 col-md-6 col-lg-4 pb-3 aos-init aos-animate" data-aos="zoom-in">
+                    <div class=" card" style="width: 18rem;">
+                        <img src="img/compiler.png" class="card-img-top" alt="..." style="height: 13rem;" />
+                        <div class="card-body">
+                        <table class="card-table">
+                            <tr>
+                                <td valign="top">
+                                    <h5 class="card-title">Deca Compiler</h5>
+                                    <p class="card-text">
+                                        A compiler for the programming language Deca, developped in Java.
+                                        Unfortunately it's a school project so
+                                        I won't be able to share the source code publicly.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="bottom">
+                                    <a href="" class="check-btn btn btn-warning disabled">Check it out</a>
+                                </td>
+                            </tr>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pb-3 aos-init aos-animate" data-aos="zoom-in">
+                    <div class=" card" style="width: 18rem;">
+                        <img src="img/noq.png" class="card-img-top" alt="..." style="height: 13rem;" />
+                        <div class="card-body">
+                        <table class="card-table">
+                            <tr>
+                                <td valign="top">
+                                    <h5 class="card-title">NoQ</h5>
+                                    <p class="card-text">
+                                        Android native application for turn management developed in Java.
+                                        The objectif is to allow peaople to spend less time in queues.
+                                        This is my first work with Android Studio, and it is not bad at all.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="bottom">
+                                    <a href="" class="check-btn btn btn-warning disabled">Check it out</a>
+                                </td>
+                            </tr>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pb-3 aos-init aos-animate" data-aos="zoom-in">
+                    <div class=" card" style="width: 18rem;">
+                        <img src="img/tooth.png" class="card-img-top" alt="..." style="height: 13rem;" />
+                        <div class="card-body">
+                        <table class="card-table">
+                            <tr>
+                                <td valign="top">
+                                    <h5 class="card-title">Patient Manager</h5>
+                                    <p class="card-text">
+                                        A Java application for patient management in a dental clinic.
+                                        This is only a first version of it that manages only patient
+                                        records. I am currently working on its next level!
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="bottom">
+                                    <a href="" class="check-btn btn btn-warning disabled">Check it out</a>
+                                </td>
+                            </tr>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pb-3 aos-init aos-animate" data-aos="zoom-in">
+                    <div class=" card" style="width: 18rem;">
+                        <img src="img/projet-c.png" class="card-img-top" alt="..." style="height: 13rem;" />
+                        <div class="card-body">
+                        <table class="card-table">
+                            <tr>
+                                <td valign="top">
+                                    <h5 class="card-title">GUI Library</h5>
+                                    <p class="card-text">
+                                        A GUI management library based on SDL2. The user can create
+                                        an interface with windows, buttons, labels, insert images,...
+                                        the performance was not like swing's but it was good enough
+                                        to give us a grade of 19/20. I won't be able to share the source
+                                        code publicly because it is a school project.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="bottom">
+                                    <a href="" class="check-btn btn btn-warning disabled">Check it out</a>
+                                </td>
+                            </tr>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pb-3 aos-init aos-animate" data-aos="zoom-in">
+                    <div class=" card" style="width: 18rem;">
+                        <img src="img/robot.png" class="card-img-top" alt="..." style="height: 13rem;" />
+                        <div class="card-body">
+                        <table class="card-table">
+                            <tr>
+                                <td valign="top">
+                                    <h5 class="card-title">Fire Robots</h5>
+                                    <p class="card-text">
+                                        A pathfinding visualiser. The challenge was to
+                                        find the optimal paths and job schedules for a set of
+                                        robots of different types and caracteritics to put out
+                                        all the fires of the a map of multiple natures. We used
+                                        Djikstra to find the closest paths and an object oriented
+                                        approach to manage our strategy and the graphic simmulation.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="bottom">
+                                    <a href="" class="check-btn btn btn-warning disabled">Check it out</a>
+                                </td>
+                            </tr>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pb-3 aos-init aos-animate" data-aos="zoom-in">
+                    <div class=" card" style="width: 18rem;">
+                        <img src="img/trecvid.png" class="card-img-top" alt="..." style="height: 13rem;" />
+                        <div class="card-body">
+                        <table class="card-table">
+                            <tr>
+                                <td valign="top">
+                                    <h5 class="card-title">Search engine</h5>
+                                    <p class="card-text">
+                                        A video search engine that takes in entry a query
+                                        and returns the most corresponding videos to this 
+                                        query from a set (a very large set!) of videos classed
+                                        by an AI into key concepts. The objectif is to participate
+                                        in international challenges like TRECVid or VBS. The 
+                                        source code will be available after the competition.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="bottom">
+                                    <a href="" class="check-btn btn btn-warning disabled">Check it out</a>
+                                </td>
+                            </tr>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Contact-->
+        <div class="container-fluid p-4" id="contact">
+            <div class="container text-white">
+                <h1 class="text-dark">Contact</h1>
+                <h3>Feel free to contact me!</h3>
+                <div class="row pt-5">
+                    <a class="col-12 col-md-3 pb-3 media_link btn" href="https://www.linkedin.com/in/hakim-ou-340038191/" target="_blank">
+                        <div class="row">
+                            <div class="col-6 d-flex justify-content-start">
+                                <h3 class="pt-2 m-0 text-white">LinkedIn</h3>
+                            </div>
+                            <div class="col-6 d-flex justify-content-end align-items-center">
+                                <i class="fab fa-linkedin-in fa-3x text-secondary d-sm-none d-md-block"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="col-12 col-md-3 pb-3 media_link btn" href="https://github.com/Hakim-ou" target="_blank">
+                        <div class="row">
+                            <div class="col-6 d-flex justify-content-start">
+                                <h3 class="pt-2 m-0 text-white">GitHub</h3>
+                            </div>
+                            <div class="col-6 d-flex justify-content-end align-items-center">
+                                <i class="fab fa-github fa-3x text-secondary"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="col-12 col-md-3 pb-3 media_link btn" id="email-me">
+                        <div class="row">
+                            <div class="col-6 d-flex justify-content-start">
+                                <h3 class="pt-2 m-0 text-white">Email</h3>
+                            </div>
+                            <div class="col-6 d-flex justify-content-end align-items-center">
+                                <i class="fas fa-envelope fa-3x text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="col-12 col-md-3 pb-3 media_link btn" href="https://gitlab.ensimag.fr/ouhidah" target="_blank">
+                        <div class="row">
+                            <div class="col-6 d-flex justify-content-start">
+                                <h3 class="pt-2 m-0 text-white">Gitlab</h3>
+                            </div>
+                            <div class="col-6 d-flex justify-content-end align-items-center">
+                                <i class="fab fa-gitlab fa-3x text-secondary"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <footer>
+            <div class="container text-muted text-center py-3 mt-5">
+                <h5>Created with some help from Bootstrap <i class="fab fa-bootstrap"></i>
+                </h5>
+                <h6>Source code available at my github.</h6>
+            </div>
+        </footer>
+    </body>
+    <script src="js/events.js"></script>
+</html>

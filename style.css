@@ -1,0 +1,237 @@
+/*Smooth scrolling effect*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #f6f7f8;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+p { 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 32px; 
+    margin: 0 0 24px; 
+    text-indent: 30px;
+}
+
+.text-about-me {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+#main-section{
+    background:#b9babe; 
+    width: 100%;
+}
+
+/*Font for main heading*/
+.m-heading{
+    font-family: "Roboto Slab", serif; 
+}
+#mainNavbar .navbar-brand{
+    color: #343a40;
+    font-size:2rem;
+    font-weight: 400; 
+}
+.nav-link{
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.15s ease;
+}
+
+.navbar.scrolled{
+    background: #8d4a4a;
+    transition: background 400ms;
+    opacity:90%;
+}
+
+.shadowed {
+    -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+    filter: drop-shadow();
+}
+
+.my-image {
+    margin-left: 10%;
+}
+
+.main-container{
+    min-height: 80vh;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.button-group {
+    margin-top: 40px;
+}
+
+.btn {
+    width: 160px;
+    height: 40px;
+    margin-right: 30px;
+    background: #494947;
+    color: #fff;
+    line-height: 25px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    border-radius: 0px;
+    border: 1px solid #d7d7cb;
+    transition: all 1s;
+}
+
+.contact {
+    background: #c0392b;
+    color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 80px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.underline {
+    margin-bottom: 10px;
+    border-bottom: 8px solid orange;
+}
+
+.underline--stars {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg");
+  background-position: 0 29px;
+  background-size: 10px 9px;
+}
+
+.icon {
+    position: relative;
+    border-top: 1px solid #c0392b;
+    width: 150px;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 30px;
+}
+
+.skills-blocks {
+    margin-top: 8px;
+}
+
+.skill {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skill .icon-skill {
+    border: 1px solid #c0392b;
+    text-align: center;
+    height: 130px;
+    width: 130px;
+    margin: auto;
+    margin-bottom: 15px;
+    line-height: 2;
+    font-size: 63px;
+    color: #494947;
+    transition: all 1s;
+}
+
+.image-skill {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.skill .label-skill {
+    font-size: 15px;
+    font-weight: bold;
+    color: #494947;
+}
+
+.main-row h1{
+    font-size: 5rem;
+}
+.main-row{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.ensimag-btn{
+    color:#e2a645;
+    font-weight:450;
+}
+.ensimag-btn:hover{
+    color:#c87f08;
+    text-decoration: none;
+}
+
+#contact{
+    background: #7f7f81;
+}
+
+.media_link{
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    margin-top: 20px;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5rem;
+    height: auto;
+    background:#343a40;
+}
+
+.contact-icon {
+    font-size:21px;
+}
+
+.card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+        margin-top: 40px;
+        border-bottom: 8px solid orange;
+        height: 100%;
+}
+
+.card-img-top{
+    height: 10vw;
+}
+
+.check-btn {
+    position: relative;
+    margin-top: 20px;
+}
+
+.card-table {
+    height: 100%;
+}
+
+.project-line {
+    margin-top:20px;
+}
+
+#contact a:hover, div#email-me:hover{
+    background-color:#e07a5f;
+}
+
+@media screen and (max-width:1000px){
+    .btn {
+        width: 120;
+    }
+}
+
+@media screen and (max-width:800px){
+    .btn {
+        width: 100;
+    }
+}
